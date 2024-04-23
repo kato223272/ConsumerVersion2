@@ -7,7 +7,7 @@ export class ProcesarMensaje {
     console.log('Procesando mensaje:', mensaje.contenido);
 
     try {
-      const response = await fetch('https://super-bowl-api-2.onrender.com/users/user' , {
+      const response = await fetch('https://katoapi2.onrender.com/Vendedor' , {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
